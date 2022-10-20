@@ -1,5 +1,5 @@
 import "./css/index.css";
-import IMask, { MaskedRange } from "imask";
+import IMask from 'imask';
 
 const ccBgColor01 = document.querySelector(
   ".cc-bg  svg > g g:nth-child(1) > path"
@@ -48,6 +48,7 @@ const expirationDatePattern = {
       from: 1,
       to: 12,
     },
+    
   },
 };
 
